@@ -1,0 +1,154 @@
+ .header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     background: #fbfafa;
+ }
+ 
+ body {
+     background: url(https://wallpaperaccess.com/full/185289.jpg);
+ }
+ 
+ .wrapper {
+     width: 800 px;
+     margin: 0 auto;
+ }
+ 
+ .logo {
+     width: 21%;
+ }
+ 
+ .logo__text {
+     margin-right: 20%;
+ }
+ 
+ .logo__link {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+ }
+ 
+ .logo__picture {
+     width: 20%;
+     padding-top: 2%;
+     padding-bottom: 1%;
+     padding-left: 2%;
+ }
+ 
+ .menu {
+     display: flex; /*для того, чтобы элементы шли в рядок*/
+     justify-content: space-evenly;
+     align-items: center;
+     width: 40%;   /*для того, чтобы поместился еще один блок*/
+ }
+ 
+ .menu__link {
+     text-decoration: none;
+ }
+ 
+ .menu__link:hover {
+     text-decoration: underline;
+ }
+ 
+ .main_logo {
+    font-size: 80px;
+    font-family: bad script;
+ }
+
+.main_text {
+    padding-top: 8%;
+    font-size: 35px;
+    font-family: bad script;
+}
+
+a {
+    text-decoration: none;
+}
+ .form__item {
+     padding: 0.4% 2%;
+ }
+
+ .open_website {
+     padding-top: 2%;
+     font-size: 1rem;
+     text-align: center;
+     margin-top: 5%;
+ }
+
+ .title_bloc {
+    display: flex;
+    background: url(https://t3.ftcdn.net/jpg/02/66/10/90/360_F_266109081_22a0UNlYqLGh3vin77zsPlpINnHC6Bgy.jpg);
+ }
+
+ .logos__text {
+  color: black;
+ }
+
+ .menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.menu> .menu__item {
+    font-size: 16px;
+    display: inline-block;
+    margin: 5px 20px;
+    position: relative;
+}
+
+.menu .submenu {
+    position: absolute;
+    overflow: hidden;
+    height: 0;
+    opacity: 0;
+    transition: opacity 2s, height 1s;
+    padding: 0;  
+}
+
+.menu .submenu .submenu__item {
+    display: block;
+    margin: 0;
+}
+
+.menu__item:hover .submenu {
+    height: 300px;
+    opacity: 1;
+    transition: opacity 2s, height 1s;
+}
+
+.submenu__link {
+    display: block;
+    padding-top: 50%;
+    background: #fbfafa;
+}
+
+ .content_text {
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 5%;
+    font-size: 20px;
+    font-family: Times New Roman;
+    text-align: justify;
+ }
+
+.fixed_link {
+    position: fixed;
+    top: 40%;
+    right: 2%;
+    display: block;
+}
+
+ .footer {
+     display: flex;
+     justify-content: space-between;
+     padding-top: 28%;
+ }
+
+ .footer__text {
+    padding-left: 5%;
+ }
+ 
